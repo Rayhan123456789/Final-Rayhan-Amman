@@ -1,0 +1,40 @@
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  .header-right {
+    display: block;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .btn {
+    width: 50%;
+  }
+
+  .Facebook {
+    margin-bottom: 50px;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }
+
+  .top-wrapper h1 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .Education {
+    width: 90%;
+  }
+
+  footer {
+    text-align: center;
+  }
+}

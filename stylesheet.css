@@ -1,0 +1,243 @@
+.container {
+  max-width: 1170px;
+  width: 100%;
+  /* padding: 0 15px; */
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 100px 0 100px 0;
+  background-image: url(/Trabas1.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 35px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  color: #0c0907;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 5px;
+  color: #0c0907;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 5px 0;
+}
+
+.whats-up {
+  background-color: #239b76;
+}
+
+.Facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.Telegram {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: rgb(255, 251, 251);
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 20px;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  background-color: rgba(184, 45, 45, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 7;
+}
+img {
+  border-radius: 20px;
+}
+
+.logo {
+  width: 110px;
+  margin-top: 10px;
+  display: none;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: 15px;
+  font-size: 15px;
+}
+
+.header-right a {
+  line-height: 45px;
+  padding: 0 25px;
+  color: rgb(22, 38, 180);
+  display: block;
+  float: right;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  font-size: 10px;
+}
+
+/* Add CSS for menu-icon */
+
+.Education-wrapper {
+  padding-bottom: 40px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgba(184, 45, 45, 0.9);
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #094e1e;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.Education {
+  float: left;
+  width: 25%;
+  font-size: 15px;
+}
+
+.Education-icon {
+  position: relative;
+}
+
+.Education-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: rgb(7, 4, 4);
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #050805;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.Work-exprience-wrapper {
+  border-bottom: 1px solid rgb(3, 2, 2);
+  padding-bottom: 80px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.Work-exprience {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.Work-exprience:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+/* footer img {
+  width: 125px;
+} */
+/* 
+footer p {
+  color: #0c0907;
+  font-size: 12px;
+} */
+
+/* footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+} */
+
+.contact-form {
+  padding-top: 250px;
+  height: 100px;
+  background-color: var(--color-bg-contact);
+  font-size: 15px;
+}
+
+input,
+textarea {
+  width: 100px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #7b9cad;
+  border-radius: 14px;
+  background-color: var(--color-bg-contact);
+}
+
+.contact-submit {
+  background-color: #e0277d;
+  color: #a035a0;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.Contact {
+  float: left;
+}
+
+.form {
+  /* float: left; */
+  /* margin-left: 230px; */
+}
+
+body {
+  padding: 25px 0px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.footer {
+  display: flex;
+}
